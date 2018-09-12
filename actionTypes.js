@@ -5,39 +5,36 @@ export const THUMB_UP_COMMENT = 'THUMB_UP_COMMENT';
 export const THUMB_DOWN_COMMENT = 'THUMB_DOWN_COMMENT';
 
 
-const ADD_COMMENT = 'ADD_COMMENT';
 
 {
     type: ADD_COMMENT,
     text: 'Add my first comment !'
 }
 
-const REMOVE_COMMENT = 'REMOVE_COMMENT';
 
 {
     type: REMOVE_COMMENT,
-    text: 'Remove my first comment'
+    text: 'Remove a comment !'
     id: 1
 }
 
-const EDIT_COMMENT = 'EDIT_COMMENT';
 
 {
     type: EDIT_COMMENT,
     id: 2,
-    text: ''
+    text: 'Edit a comment !'
 }
 
-const THUMB_UP_COMMENT = 'THUMB_UP_COMMENT';
 
 {
     type: THUMB_UP_COMMENT,
-    id: 1
+    id: 1,
+    thumb: 27
 }
 
-const THUMB_DOWN_COMMENT = 'THUMB_DOWN_COMMENT';
 
 {
     type: THUMB_DOWN_COMMENT,
     id: 2
+    thumb: 40
 }

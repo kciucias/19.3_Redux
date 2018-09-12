@@ -1,5 +1,5 @@
 import uuid  from uuid;
-import {ADD_COMMENT, REMOVE_COMMENT, EDIT_COMMENT, TUMB_UP_COMMENT, THUMB_DOWN_COMMENT} from ."./actionTypes"
+import {ADD_COMMENT, REMOVE_COMMENT, EDIT_COMMENT, THUMB_UP_COMMENT, THUMB_DOWN_COMMENT} from ."./actionTypes"
 
 //add comment
 function addComment(text) {
@@ -14,6 +14,7 @@ const boundAddComment = text => dispatch(addComment(text));
 
 boundAddComment('New comment');
 boundAddComment('Another comment')
+
 
 //edit comment
 function editComment(id, text) {
