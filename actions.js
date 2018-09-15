@@ -45,7 +45,6 @@ boundRemoveComment(1);
 function thumbUpComment(id) {
     return {
         type: THUMB_UP_COMMENT,
-        thumb: thumb + 1,
         id
     }
 }
@@ -58,7 +57,6 @@ boundThumbUpComment(1);
 function thumbDownComment(id) {
     return {
         type: THUMB_DOWN_COMMENT,
-        thumb: thumb - 1,
         id
     }
 }

@@ -29,12 +29,10 @@ export const THUMB_DOWN_COMMENT = 'THUMB_DOWN_COMMENT';
 {
     type: THUMB_UP_COMMENT,
     id: 1,
-    thumb: 27
 }
 
 
 {
     type: THUMB_DOWN_COMMENT,
     id: 2
-    thumb: 40
 }
